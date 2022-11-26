@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+}
+
+body::-webkit-scrollbar {
+    width: 12px;
+  }
+  body::-webkit-scrollbar-thumb {
+      border-radius: 20px;
+    border: 3px solid grey;
+}
+nav{
+    padding: 10px 15px 4px 10px;
+    background-color:rgba(232, 238, 236,0.5);
+    border-radius: 5px;
+}
+nav ul{ 
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu > ul{
+    list-style: none;
+}
+.menu > li{
+    position: relative;
+    display: inline-block;
+}
+.submenu{
+    position:absolute;
+    display: none;
+    list-style: none;
+}
+.menu li:hover .submenu{
+    display:block;
+}

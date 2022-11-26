@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin: auto;
+    font-family:Georgia;
+    font-size:70%;
+}
+
+.registro{
+    width: 420px;
+    height: 280px;
+    background-color: rgba(200,200,200,0.7);;
+    padding: 10px 30px 10px 30px;
+    border-radius: 2px;
+    font-family: 'calibri';
+    color:white;
+    box-shadow: 7px 13px 50px #000;
+    align-items: center;
+    margin-top:35px
+}
+.titulo{
+    font-size:22px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.coso{
+    width: 100%;
+    background-color: rgba(200,200,200,0.5);
+    padding: 10px;
+    border-radius: 2px;
+    margin-bottom: 16px;
+    border: 1px solid #0c1e44;
+    font-family: 'calibri';
+    font-size: 18px;
+}
+.coso:hover{
+    border: 1px solid white;
+}
+.coso:invalid{
+    border:1px solid rgb(177, 27, 27)
+}
+
+p{
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+a{
+    color:white;
+    text-decoration: none;
+}
+a:hover{
+    color:white;
+    text-decoration: underline;
+}
+.registro .boton{
+width: 100%;
+background: #0c1e44;
+border: none;
+padding: 12px;
+color: white;
+margin: 16px 0;
+font-size: 16px; 
+border-radius: 10px;
+}
+.registro .boton:hover{
+    background-color: #132f6b;
+}
+body{
+    background-image: url(FondoInicSesion.jpg);
+}

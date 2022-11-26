@@ -1,0 +1,167 @@
+#buscador{
+  width: 500px;
+}
+html{
+  background-image:url(IniciarSesion\FondoInicSesion.jpg);
+}
+body{
+  text-align: center;
+}
+*{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin: auto;
+}
+h2{
+    text-align: center;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    padding-top: 40px;
+    padding-bottom: -20px;
+}
+#imagen{
+  max-width: 100%;
+  max-height: 500px;
+}
+#general{
+  height: 300px;
+  width: 90%;
+}
+
+
+.hexagon-wrapper {
+  margin: auto;
+  display: flex;
+  text-align: initial;
+  width: 200px;
+  height: 200px;
+  cursor: pointer;
+}
+
+.hexagon {
+  position: relative;
+  width: 46%;
+  height: 80%;
+  margin: auto;
+  color: white;
+  background: linear-gradient(-180deg, white, #49c4c9);
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  transition: 0.5s;
+}
+
+.hexagon i {
+  z-index: 1;
+  margin: auto;
+  font-size: 50px;
+  color: transparent;
+  background: linear-gradient(45deg, #a58fe9, #49c4c9);
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.hexagon:before,
+.hexagon:after {
+  position: absolute;
+  content: "";
+  background: inherit;
+  height: 100%;
+  width: 100%;
+  border-radius: 0;
+  transition: 0.5s;
+  transform-origin: center;
+}
+.hexagon:before {
+  transform: rotateZ(60deg);
+}
+.hexagon:after {
+  transform: rotateZ(-60deg);
+}
+.hexagon:hover {
+  border-radius: 50px;
+  transition: 0.5s;
+}
+.hexagon:hover:before {
+  border-radius: 50px;
+  transition: 0.5s;
+}
+.hexagon:hover:after {
+  border-radius: 50px;
+  transition: 0.5s;
+}
+.seguir{
+  align-items: center;
+  display:flex;
+}
+footer{
+  text-align: center;
+  background-color: lightgray;
+}
+.prod{
+  align-items: center;
+  display:flex;
+}
+#Hogar{
+  width: 500px;
+  height: 330px;
+  background-color: aqua;
+  background-image: url(Hogar.png) ;
+  border-radius:2px;
+  transition: 1s;
+}
+#Gaiming{
+  margin: 10px;
+ width: 200px;
+ height: 150px;
+ background-color: aquamarine;
+ background-image: url(Gaiming.png) ;
+ border-radius:2px;
+ transition: 1s;
+}
+#Estudios{
+  margin: 10px;
+  width: 200px;
+  height: 150px;
+  background-color: aquamarine;
+  background-image: url(Estudios.png) ;
+  border-radius:2px;
+  transition: 1s;
+}
+#Moda{
+  margin: 10px;
+  width: 200px;
+  height: 150px;
+  background-color: aquamarine;
+  background-image: url(Moda.png) ;
+  border-radius:2px;
+  transition: 1s;
+}
+
+#Deporte{
+  margin: 10px;
+  width: 200px;
+  height: 150px;
+  background-color: aquamarine;
+  background-image: url(Deporte.png) ;
+  border-radius:5px;
+  transition: 1s;
+} 
+
+a h2{
+  color: white;
+  text-decoration: none;  
+}
+
+#Deporte:hover, #Moda:hover, #Estudios:hover,#Gaiming:hover, #Hogar:hover{
+  transform:scale(1.05);
+}
+.producto1, .producto2{
+  background-color: rgba(200,200,200,0.1  );
+  padding: 10px;
+}
+.card{
+  transition: 1s;
+}
+
+.card:hover{
+  transform:scale(1.01);
+}

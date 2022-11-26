@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.registro{
+    width: 420px;
+    height: 600px;
+    background-color: #24303C;
+    padding: 10px 30px 10px 30px;
+    border-radius: 8px;
+    font-family: 'calibri';
+    color:white;
+    box-shadow: 7px 13px 50px #000;
+    align-items: center;
+    margin-top:25px
+}
+.titulo{
+    font-size:22px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.coso{
+    width: 100%;
+    background-color: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+}
+.coso:hover{
+    border: 1px solid white;
+}
+.coso:valid{
+    border:1px solid rgb(70, 177, 27)
+}
+.coso:invalid{
+    border:1px solid rgb(177, 27, 27)
+}
+
+p{
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+a{
+    color:white;
+    text-decoration: none;
+}
+a:hover{
+    color:white;
+    text-decoration: underline;
+}
+.registro .boton{
+width: 100%;
+background: #1f53c5;
+border: none;
+padding: 12px;
+color: white;
+margin: 16px 0;
+font-size: 16px; 
+border-radius: 8px;
+}
+body{
+    background-image: url(FondoRegistrarCliente.jpg);
+}
